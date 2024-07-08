@@ -5,6 +5,7 @@ import { ContextPokemon, contextPoke } from '../../infra/context/pokemonContext'
 import { item } from '../../domain/models/pokemon';
 import { generateID } from '../../utils';
 import { contextModal, ContextModal } from '../../infra/context';
+import { NotFound } from '../not-found/NotFound';
  
 const highLigthedText = (pokeName: string, value: string) => {
     
@@ -55,10 +56,7 @@ export const Search = () => {
         
           {isOpen && (
             textValue.trim.length !== 0 || pokemons.filter( poke => poke.name.includes(textValue)).length === 0
-            ? <div className='sensitive__not-found'>
-                  Pokemon not found
-                  <img src='/assets/Psyduck.webp' alt="psyduck" width={200}/>
-                </div> 
+            ? <NotFound text='Pokemon not found'/>
             :
             <div className='sensitive__content__overflow'>
               <div className='sensitive__options'>
