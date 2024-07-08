@@ -9,9 +9,9 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "homepage": "https://axl-developer.github.io/reto-pokeapi/"
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://axl-developer.github.io/reto-pokeapi/",
   "dependencies": {
     "@types/react-chartjs-2": "^2.5.7",
     "chart.js": "^4.4.3",
