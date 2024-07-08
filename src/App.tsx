@@ -1,7 +1,6 @@
 import { useContext } from "react"
 import { ListPokemonsName, ListType, Search, Modal, CardPokemon } from "./presentation"
 import { ContextModal, contextModal } from "./infra/context"
-import { NotFound } from './presentation/not-found/NotFound';
 
 function App() {  
   
