@@ -19,8 +19,7 @@ function App() {
           <ListPokemonsName />
         </div>  
       </div>
-        
-      <NotFound text="test" />
+
         {
           modal.isOpen &&
           <Modal>
