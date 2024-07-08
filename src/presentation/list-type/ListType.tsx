@@ -1,3 +1,4 @@
+import './styles.scss'
 import { useContext, useState } from 'react';
 import { generateID, getColors, getNumberParam } from '../../utils'
 import { useGetTypes } from '../hook';
@@ -44,17 +45,20 @@ export const ListType = () => {
     }
 
   return (
-    <div>
-      {
-        totalTypes.map(
-          type => (
-            <div key={generateID()} onClick={()=> handleChangeType(type.name, getNumberParam(type.url))}>
-              <Tag text={type.name} type={currenType === type.name ?getColors(type.name) :'default'}/>
-            </div>
+    <div className='list-type'>
+      <h2>Filters by Type</h2>
+      <div>
+        {
+          totalTypes.map(
+            type => (
+              <div key={generateID()} onClick={()=> handleChangeType(type.name, getNumberParam(type.url))}>
+                <Tag text={type.name} type={`small is-${currenType === type.name ?getColors(type.name) :' is-default'}`}/>
+              </div>
+            )
           )
-        )
-      
-      }
+        
+        }
+      </div>
     </div>
   )
 }

@@ -33,6 +33,7 @@
         border-radius: 50%;
         cursor: pointer;
         transition: box-shadow 0.3s ease-in-out;
+        margin-bottom: 5px;
 
         &:hover {
             box-shadow: 2px 19px 35px -9px rgba(0,0,0,0.57);

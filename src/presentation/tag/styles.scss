@@ -7,6 +7,10 @@
     margin-right: 5px;
     width: fit-content;
 
+    &.is-small {
+        padding: 5px;
+    }
+
     &.is-default {
         color: black;
     }
