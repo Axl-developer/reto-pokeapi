@@ -1,0 +1,41 @@
+.list__pokemons{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-width: 600px;
+
+    &__constains {
+        display: flex;
+        flex-wrap: wrap;
+        overflow: scroll;
+        max-height: 600px;
+
+    }
+
+    &__name{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7px;
+        max-height: 450px;
+    }
+}
+
+.pokemon__name {
+    align-items: center;
+    background: #bdbdbd;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 10px;
+
+    & > div {
+        border-radius: 50%;
+        cursor: pointer;
+        transition: box-shadow 0.3s ease-in-out;
+
+        &:hover {
+            box-shadow: 2px 19px 35px -9px rgba(0,0,0,0.57);
+        }
+    }
+}

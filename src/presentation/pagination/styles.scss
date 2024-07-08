@@ -1,0 +1,11 @@
+.pagination {
+    display: flex;
+    &__page{
+        margin: 0 4px;
+        cursor: pointer;
+    }
+
+    .is-active{
+        color: red
+    }
+}

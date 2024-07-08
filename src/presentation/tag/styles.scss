@@ -1,0 +1,89 @@
+
+.tag {
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 20px;
+    margin-right: 5px;
+    width: fit-content;
+
+    &.is-default {
+        color: black;
+    }
+
+    &.is-gray {
+        background: #9099A1;
+    }
+
+    &.is-brown {
+        background: #CE4069;
+    }
+
+    &.is-sky {
+        background: #8FA8DD;
+    }
+    
+    &.is-purple {
+        background: #8E44AD;
+    }
+
+    &.is-mustard {
+        background: #C7B78B;
+    }
+    
+    &.is-mustard-dark { 
+        background: #D97746;
+    }
+
+    &.is-green { 
+        background: #90C12C;
+    }
+
+    &.is-blue-dark{
+        background: #5269AC;
+    }
+
+    &.is-blue-gray{
+        background: #5A8EA1;
+    }
+
+    &.is-orange {
+        background: #FF9C54;
+    }
+    
+    &.is-skyblue{
+        background: #4D90D5;
+    }
+
+    &.is-plant{
+        background: #63BB5B;
+    }
+
+    &.is-yellow{
+        background: #F3D23B;
+    }
+
+    &.is-pink{
+        background: #F97176;
+    }
+
+    &.is-cyan{
+        background: #74CEC0;
+    }
+
+    &.is-blue-real{
+        background: #0A6DC4;
+    }
+
+    &.is-dark{
+        background: #5A5366;
+    }
+
+    &.is-light-pink{
+        background: #EC8FE6;
+    }
+
+    &.is-stellar{
+        background: #EEF0AD;
+    }
+}

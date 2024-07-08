@@ -1,0 +1,163 @@
+
+.cardPokemon {
+    align-items: start;
+    background: red;
+    border-radius: 25px;
+    box-shadow: 2px 19px 35px -9px rgba(0,0,0,0.57);
+    display: flex;
+    flex-direction: column;
+
+    &__principal {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    &__pokemon {
+        margin: auto;
+        padding-right: 20px;
+    }
+
+    &__title {
+        color: #fff;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    &__figure {
+        height: 0;
+        min-width: 300px;
+        padding-bottom: 100%;
+        position: relative;
+        width: 100%;
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__info {
+        background: #fff;
+        border-radius: 16px 0px 16px 16px;
+        padding: 20px;
+        width: 100%;
+    }
+
+    &__sidebar {
+        background: #fff;
+        border-top-right-radius: 16px;
+        padding: 20px;
+    }
+
+    &__types {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        padding: 10px 0px;
+    }
+
+    &__not-found {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        color: #fff;
+    }
+
+    &__variants {
+        background: rgba($color: #000000, $alpha: 0.1);
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    &.is-gray {
+        background: #9099A1;
+    }
+
+    &.is-brown {
+        background: #CE4069;
+    }
+
+    &.is-sky {
+        background: #8FA8DD;
+    }
+    
+    &.is-purple {
+        background: #8E44AD;
+    }
+
+    &.is-mustard {
+        background: #C7B78B;
+    }
+    
+    &.is-mustard-dark { 
+        background: #D97746;
+    }
+
+    &.is-green { 
+        background: #90C12C;
+    }
+
+    &.is-blue-dark{
+        background: #5269AC;
+    }
+
+    &.is-blue-gray{
+        background: #5A8EA1;
+    }
+
+    &.is-orange {
+        background: #FF9C54;
+    }
+    
+    &.is-skyblue{
+        background: #4D90D5;
+    }
+
+    &.is-plant{
+        background: #63BB5B;
+    }
+
+    &.is-yellow{
+        background: #F3D23B;
+    }
+
+    &.is-pink{
+        background: #F97176;
+    }
+
+    &.is-cyan{
+        background: #74CEC0;
+    }
+
+    &.is-blue-real{
+        background: #0A6DC4;
+    }
+
+    &.is-dark{
+        background: #5A5366;
+    }
+
+    &.is-light-pink{
+        background: #EC8FE6;
+    }
+
+    &.is-stellar{
+        background: #EEF0AD;
+    }
+}
+
+.containt__pokeball {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 400px;    
+    width: 400px;
+}
